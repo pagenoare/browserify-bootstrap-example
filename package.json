@@ -12,5 +12,13 @@
         "underscore": "",
         "bootstrap": ""
     },
-    "browserify-shim": "./shims.js"
+    "browserify": {
+        "transform": [
+          "browserify-shim"
+        ]
+    },
+    "browserify-shim": {
+        "jquery": "$",
+        "bootstrap": { "depends": "jquery:jQuery" }
+    }
 }
