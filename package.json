@@ -1,0 +1,16 @@
+{
+    "name": "browserify-bootstrap-example",
+    "version": "0.0.0",
+    "description": "",
+    "homepage": "https://github.com/pagenoare/browserify-bootstrap-example",
+    "devDependencies": {
+        "grunt": "",
+        "grunt-cli": "",
+        "grunt-browserify": "",
+        "browserify-shim": "",
+        "jquery": "",
+        "underscore": "",
+        "bootstrap": ""
+    },
+    "browserify-shim": "./shims.js"
+}
