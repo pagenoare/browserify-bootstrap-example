@@ -11,6 +11,7 @@
         "browserify-shim": "",
         "jquery": "",
         "underscore": "",
-        "bootstrap": ""
+        "bootstrap": "",
+        "bootstrap-hover-dropdown": "pagenoare/bootstrap-hover-dropdown"
     }
 }

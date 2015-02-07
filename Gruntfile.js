@@ -2,7 +2,8 @@ module.exports = function(grunt) {
     var externalLibs = [
             'jquery',
             'underscore',
-            'bootstrap'
+            'bootstrap',
+            'bootstrap-hover-dropdown'
         ],
         appendColon = function (el) {
             return el + ':';

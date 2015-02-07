@@ -2,8 +2,29 @@
 <html>
   <head>
     <title>Simple Browserify Test</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+      body { padding-top: 70px; min-height: 410px }
+      .tab-content p { padding: 10px 0; }
+    </style>
+
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
     <script type="text/javascript" src="bundle.js"></script>
   </head>
   <body>
+       <div class="btn-group">
+         <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Default <span class="caret"></span></button>
+         <ul class="dropdown-menu">
+           <li><a href="#">Action</a></li>
+           <li><a href="#">Another action</a></li>
+           <li><a href="#">Something else here</a></li>
+           <li class="divider"></li>
+           <li><a href="#">Separated link</a></li>
+         </ul>
+       </div> <!-- .btn-group -->
   </body>
 </html>
