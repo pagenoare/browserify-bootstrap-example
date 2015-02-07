@@ -6,19 +6,11 @@
     "devDependencies": {
         "grunt": "",
         "grunt-cli": "",
+        "grunt-contrib-concat": "",
         "grunt-browserify": "",
         "browserify-shim": "",
         "jquery": "",
         "underscore": "",
         "bootstrap": ""
-    },
-    "browserify": {
-        "transform": [
-          "browserify-shim"
-        ]
-    },
-    "browserify-shim": {
-        "jquery": "$",
-        "bootstrap": { "depends": "jquery:jQuery" }
     }
 }
